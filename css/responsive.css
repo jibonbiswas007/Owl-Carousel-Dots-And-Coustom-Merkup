@@ -1,0 +1,82 @@
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+.single-slide-tablecell h1 {
+  font-size: 130px;
+}
+    
+}
+    
+
+/* tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+.single-slide-tablecell h1 {
+  font-size: 110px;
+  line-height: 95px;
+}
+
+}
+
+    
+    
+/* Small Mobile :320px. */
+
+@media (max-width: 767px) {
+.homepage-slides, .homepage-slides div {
+  height: auto;
+}
+.single-slide-item {
+  display: block;
+  height: auto;
+  width: auto;
+}
+.single-slide-tablecell {
+  display: block;
+}
+.single-slide-tablecell h1 {
+  font-size: 45px;
+  line-height: 50px;
+  margin: 20px 0;
+}
+.homepage-slides .owl-dots {
+  bottom: -10px;
+  position: relative;
+  right: 0;
+  text-align: center;
+}
+.homepage-slides .owl-dots div {
+  margin:0 5px;
+}
+
+.single-slide-tablecell {
+  font-size: 14px;
+}
+.single-slide-tablecell a.load-more-btn {
+  margin: 20px 0;
+  padding: 12px 25px;
+}
+.homepage-slides .owl-dots img {
+  height: 80px;
+  width: 80px;
+}
+.homepage-slides .owl-nav div {
+  display: none;
+}
+
+}
+    
+    
+    
+/* Large Mobile :480px. */
+@media (min-width: 480px) and (max-width: 767px) {
+.homepage-slides .owl-dots img {
+  height: 100px;
+  width: 100px;
+}
+.single-slide-tablecell h1 {
+  font-size: 65px;
+  line-height: 65px;
+}
+
+}
